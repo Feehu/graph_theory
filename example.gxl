@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE gxl SYSTEM "http://www.gupro.de/GXL/gxl-1.0.dtd">
+<!-- simple example 05.02.2002 -->
+<gxl xmlns:xlink=" http://www.w3.org/1999/xlink">
+  <graph id="BM" edgeids=" true" edgemode=" undirected" hypergraph=" false">
+    <node id="K1">
+      <attr name=" person">
+        <string>Ania</string>
+      </attr>
+    </node>
+    <node id="K2">
+      <attr name=" person">
+        <string>Marzena</string>
+      </attr>
+    </node>
+    <node id="K3">
+      <attr name=" person">
+        <string>Ola</string>
+      </attr>
+    </node>
+    <node id="M1">
+      <attr name=" person">
+        <string>Michał</string>
+      </attr>
+    </node>
+    <node id="M2">
+      <attr name=" person">
+        <string>Mateusz</string>
+      </attr>
+    </node>
+    <node id="M3">
+      <attr name=" person">
+        <string>Tomek</string>
+      </attr>
+    </node>
+    <edge id="e1" to="K1" from="M1">
+      <attr name="weight">
+        <int>1</int>
+      </attr>
+    </edge>
+    <edge id="e2" to="K1" from="M2">
+      <attr name="weight">
+        <int>5</int>
+      </attr>
+    </edge>
+    <edge id="e3" to="K2" from="M1">
+      <attr name="weight">
+        <int>3</int>
+      </attr>
+    </edge>
+    <edge id="e1" to="K3" from="M2">
+      <attr name="weight">
+        <int>2</int>
+      </attr>
+    </edge>
+    <edge id="e1" to="K3" from="M3">
+      <attr name="weight">
+        <int>5</int>
+      </attr>
+    </edge>
+  </graph>
+</gxl>
